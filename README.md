@@ -1,60 +1,61 @@
-# Atividade 6 - Mini-Loja
+# Atividade 6 – Mini Loja
 
-Uma aplicação React simples de e-commerce que demonstra e compara quatro diferentes abordagens de estilização: CSS Global, CSS Modules, Tailwind CSS e Styled Components.
+Este projeto é uma aplicação simples de e-commerce desenvolvida com React, com o objetivo de demonstrar e comparar quatro técnicas distintas de estilização: CSS Global, CSS Modules, Tailwind CSS e Styled Components.
 
-O projeto foi desenvolvido como parte de uma atividade acadêmica para explorar e praticar as melhores formas de gerenciar estilos em aplicações React modernas.
+A proposta foi realizada como parte de uma atividade acadêmica voltada para o estudo prático das melhores estratégias de gerenciamento de estilos em aplicações modernas com React.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Empregadas
 
-- **React**: Biblioteca JavaScript para construir interfaces de usuário.
-- **Vite**: Ferramenta de build de nova geração para projetos front-end.
-- **React Router DOM**: Para gerenciar a navegação entre as diferentes abordagens de estilização.
-- **Tailwind CSS**: Framework CSS utilitário.
-- **Styled Components**: Biblioteca CSS-in-JS para encapsular estilos.
+- **React**: Biblioteca JavaScript para construção de interfaces interativas.
+- **Vite**: Ferramenta de build rápida e moderna para projetos front-end.
+- **React Router DOM**: Gerenciamento de rotas entre as diferentes versões estilizadas.
+- **Tailwind CSS**: Framework utilitário para estilização com classes.
+- **Styled Components**: Solução CSS-in-JS para encapsulamento de estilos por componente.
 
-## ✨ Funcionalidades
+## ✨ Principais Funcionalidades
 
-- **Seleção de Estilo**: Uma interface para alternar entre as quatro abordagens de estilização e ver o resultado em tempo real.
-- **Catálogo de Produtos**: Exibe uma lista de produtos fictícios (com temas como Final Fantasy e Dark Souls).
-- **Componentes Reutilizáveis**: Demonstra a criação de componentes comuns em e-commerce (`Navbar`, `ProductCard`, `Button`, `Skeleton`) e como estilizá-los de diferentes maneiras.
-- **Modo Claro e Escuro**: Botão para alternar entre os temas de cor, usando variáveis CSS.
-- **Simulação de Carregamento**: Efeito de "skeleton loading" para melhorar a experiência do usuário durante o carregamento de dados.
-- **Carrinho de Compras**: Um contador simples para o carrinho.
+- **Alternância de Estilo**: Interface que permite trocar entre as quatro abordagens de estilização e visualizar os resultados em tempo real.
+- **Lista de Produtos**: Catálogo fictício com jogos temáticos (ex: Final Fantasy, Dark Souls).
+- **Componentização**: Exemplos de componentes reutilizáveis (`Navbar`, `ProductCard`, `Button`, `Skeleton`) estilizados de formas diferentes.
+- **Tema Claro/Escuro**: Alternância de tema com persistência, utilizando variáveis CSS.
+- **Skeleton Loading**: Simulação de carregamento com efeito visual para melhorar a experiência do usuário.
+- **Carrinho de Compras**: Contador simples de itens adicionados ao carrinho.
 
-## 📁 Estrutura do Projeto
+## 📁 Organização do Projeto
 
-O projeto é organizado para facilitar a visualização das diferentes abordagens.
+A estrutura foi pensada para facilitar a navegação entre as abordagens de estilização e destacar as diferenças entre elas.
 
+## ⚙️ Como Rodar Localmente
 
-## ⚙️ Como Executar
+Siga os passos abaixo para executar o projeto em seu ambiente de desenvolvimento.
 
-Para rodar este projeto em seu ambiente local, siga os passos abaixo.
-
-### Pré-requisitos
+### Requisitos
 
 - Node.js (versão 14 ou superior)
 - npm ou yarn
 
 ### Instalação
 
-1.  Clone o repositório:
-    ```bash
-    git clone [https://github.com/DiegoSouza01/Atividade-6-Mini-Loja.git](https://github.com/DiegoSouza01/Atividade-6-Mini-Loja.git)
-    ```
-2.  Navegue até o diretório do projeto:
-    ```bash
-    cd Atividade-6-Mini-Loja
-    ```
-3.  Instale as dependências:
-    ```bash
-    npm install
-    # ou
-    yarn
-    ```
+1. Clone o repositório:
+   ```bash
+   git clone [link_repositorio]
+   ```
+
+2. Acesse o diretório do projeto:
+   ```bash
+   cd Atividade-6-Mini-Loja
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   # ou
+   yarn
+   ```
 
 ### Execução
 
-Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
+Para iniciar o servidor de desenvolvimento:
 
 ```bash
 npm run dev
@@ -62,4 +63,6 @@ npm run dev
 yarn dev
 ```
 
-O projeto estará disponível em http://localhost:5173/ (ou em uma porta diferente, conforme exibido no seu terminal).
+O projeto será iniciado em http://localhost:5173/ (ou outra porta, conforme indicado no terminal).
+
+---
