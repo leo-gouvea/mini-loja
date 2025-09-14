@@ -1,0 +1,74 @@
+:root {
+  /* Cores Zelda */
+  --ff-primary: #2e7d32;         /* Verde Hyrule (túnica do Link) */
+  --ff-secondary: #1b5e20;       /* Verde profundo (florestas) */
+  --ff-accent: #81d4fa;          /* Azul Sheikah */
+  --ff-background: #f0f4c3;      /* Verde claro (campos de Hyrule) */
+  --ff-surface: #ffffff;
+  --ff-surface-alt: #e0e0e0;
+  --ff-text: #263238;            /* Cinza escuro */
+  --ff-text-secondary: #607d8b;  /* Cinza azulado */
+  --ff-border: #a5d6a7;          /* Verde suave */
+  --ff-rating: #fdd835;          /* Dourado Triforce */
+  --ff-success: #66bb6a;         /* Verde vitória */
+  --ff-warning: #ffb300;         /* Amarelo alerta */
+  --ff-error: #d32f2f;           /* Vermelho intenso */
+
+  /* Espaçamentos */
+  --ff-spacing-xs: 0.25rem;
+  --ff-spacing-sm: 0.5rem;
+  --ff-spacing-md: 1rem;
+  --ff-spacing-lg: 1.5rem;
+  --ff-spacing-xl: 2rem;
+
+  /* Bordas */
+  --ff-radius-sm: 0.25rem;
+  --ff-radius-md: 0.5rem;
+  --ff-radius-lg: 1rem;
+  --ff-radius-full: 9999px;
+
+  /* Sombras */
+  --ff-shadow-sm: 0 1px 3px rgba(46, 125, 50, 0.12), 0 1px 2px rgba(46, 125, 50, 0.24);
+  --ff-shadow-md: 0 3px 6px rgba(46, 125, 50, 0.16), 0 3px 6px rgba(46, 125, 50, 0.23);
+  --ff-shadow-lg: 0 10px 20px rgba(46, 125, 50, 0.19), 0 6px 6px rgba(46, 125, 50, 0.23);
+  --ff-shadow-xl: 0 14px 28px rgba(46, 125, 50, 0.25),
+    0 10px 10px rgba(46, 125, 50, 0.22);
+
+  --ff-skeleton-bg: linear-gradient(
+    90deg,
+    rgba(46, 125, 50, 0.05) 25%,
+    rgba(46, 125, 50, 0.1) 37%,
+    rgba(46, 125, 50, 0.05) 63%
+  );
+
+  --ff-transition: all 0.25s ease-in-out;
+}
+
+[data-theme="dark"] {
+  /* Cores Zelda - Tema Escuro */
+  --ff-primary: #a5d6a7;         /* Verde claro */
+  --ff-secondary: #66bb6a;       /* Verde médio */
+  --ff-accent: #4fc3f7;          /* Azul Sheikah claro */
+  --ff-background: #1b1f1d;      /* Preto esverdeado */
+  --ff-surface: #263238;         /* Cinza escuro */
+  --ff-surface-alt: #37474f;     /* Cinza profundo */
+  --ff-text: #e0f2f1;            /* Verde-água claro */
+  --ff-text-secondary: #b0bec5;  /* Cinza claro */
+  --ff-border: #4caf50;          /* Verde vibrante */
+  --ff-rating: #fbc02d;          /* Dourado escuro */
+  --ff-success: #81c784;
+  --ff-warning: #ffca28;
+  --ff-error: #e57373;
+
+  --ff-shadow-sm: 0 1px 3px rgba(255, 255, 255, 0.1),
+    0 1px 2px rgba(255, 255, 255, 0.1);
+  --ff-shadow-md: 0 3px 6px rgba(255, 255, 255, 0.1),
+    0 3px 6px rgba(255, 255, 255, 0.2);
+
+  --ff-skeleton-bg: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05) 25%,
+    rgba(255, 255, 255, 0.1) 37%,
+    rgba(255, 255, 255, 0.05) 63%
+  );
+}

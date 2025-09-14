@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--ds-spacing-md) var(--ds-spacing-lg);
+  background-color: var(--ds-surface);
+  box-shadow: var(--ds-shadow-sm);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transition: var(--ds-transition);
+}
+
+.navbarLogo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--ds-primary);
+  text-shadow: var(--ds-text-shadow);
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbarActions {
+  display: flex;
+  align-items: center;
+  gap: var(--ds-spacing-md);
+}
+
+.themeToggle {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: var(--ds-spacing-xs);
+  transition: transform 0.2s ease-in-out;
+}
+
+.themeToggle:hover {
+  transform: scale(1.1);
+}
+
+.cartBadge {
+  position: relative;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: var(--ds-spacing-xs);
+  transition: transform 0.2s ease-in-out;
+}
+
+.cartBadge:hover {
+  transform: scale(1.1);
+}
+
+.cartBadgeCount {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: var(--ds-primary);
+  color: var(--ds-text);
+  border-radius: var(--ds-radius-full);
+  padding: 0.1rem 0.4rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  pointer-events: none;
+  min-width: 1.25rem;
+  text-align: center;
+}
