@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = ({ theme, toggleTheme, cartCount }) => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Final Fantasy Shop</div>
+      <div className="navbar-logo">LEGEND OF ZELDA SHOP</div>
       <div className="navbar-actions">
         <button
           className="theme-toggle"
